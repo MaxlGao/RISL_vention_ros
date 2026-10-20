@@ -16,7 +16,7 @@ This **ROS 2 package** enables control of a **Vention linear actuator** via a so
 
 ## 🛠️ Usage
 
-1. **Run the control script** by navigating to the `<path_to_src>/src/vention_ros/vention_ros` folder
+1. **Run the control script** by navigating to the `<path_to_src>/src/risl_vention_ros/risl_vention_ros` folder
 
    ```bash
    python3 vention_socket_control.py

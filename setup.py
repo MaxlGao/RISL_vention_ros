@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'vention_ros'
+package_name = 'risl_vention_ros'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'vention_socket_control = vention_ros.vention_socket_control_node:main'
+            'vention_socket_control = risl_vention_ros.vention_socket_control_node:main'
         ],
     },
 )
